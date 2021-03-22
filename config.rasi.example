@@ -1,0 +1,4 @@
+configuration {
+    modi: "tabs:~/code/chromium-rofi-mode/chromium-rofi-mode.sh";
+    combi-modi: "tabs";
+}
