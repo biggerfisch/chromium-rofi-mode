@@ -29,3 +29,6 @@ While I believe that other solutions work fine here, I like this variant made he
 ## Known issues:
 #### Mismatching titles
 Some sites have displayed titles that do not match what is shown in the debugging interface. For example, YouTube and Google Drive are key offenders here. I'm not sure exactly what mechanism is causing this. When this happens, the tab can still be activated, but the window switching might not work as `xdotool` might not be able to match the window title name.
+
+#### Unloaded tabs
+Sometimes (primarily when a window is restored via Ctrl-Shift-t after startup), a tab can exist but not yet be loaded. Despite it showing up in the tab bar on chrome, until it is viewed and loaded, it will not show up here.
